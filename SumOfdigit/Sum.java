@@ -14,11 +14,10 @@ public class Sum{
             i=i+1;
         }
         i=0;
-        while(i<0){
-        sum=sum+1;
+        while(i<n){
+        sum=sum+a[i];
         i=i+1;
     }
-    System.out.println(sum);
-
+    System.out.println("The sum is:"+sum);
     }
 }
